@@ -1,0 +1,89 @@
+
+*{
+    font-size: 100%;
+}
+
+body{
+    background-image: url(canada-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quadrado{
+    color: red;
+    background-color: black;
+   width: 300px;
+   height: 200px;
+   border-bottom: solid 30px orange;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+button{
+    background-color: crimson;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px rgb(192, 127, 7);
+    text-align: center;
+}
+
+p{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+botao{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #800;
+    padding: 15px;
+}
+
+botao:hover{
+    background-color: #F00;
+}
+
+.menu{
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+   display: flex;
+   width: 300px; 
+   height: 400px;
+   background-color: crimson;
+   align-items: center;
+   justify-content: center;
+}
+
+.item1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.item2{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.item3{
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
